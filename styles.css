@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding-top: 0;
+}
+
+body {
+  text-align: center;
+}
+
+/*hr {*/
+/*  display: none;*/
+/*  width: 4%;*/
+/*  border-style: dotted none none;*/
+/*  border-width: 6px;*/
+/*  margin: 0 auto;*/
+/*}*/
+
+hr {
+  margin: 0 auto;
+  border-color: black;
+  border-top-width: 7px;
+}
+
+
+#carouselExampleAutoplaying {
+  margin: 0 auto;
+  width: 37%;
+}
+
+.subtitle {
+  margin-bottom: 0;
+}
+
+header, #about {
+  background-color: #e4f9f5;
+  line-height: 2;
+}
+
+.skills-list {
+  text-align: left;
+  padding: 50px 0;
+}
+
+#skills {
+  width: 50%;
+  padding-top: 100px;
+  margin: 0 auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+
+#code-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+
+#hard-skill-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+#soft-skill-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+/* Carousel */
+
+#projects {
+  margin-top: 0;
+  padding-top: 30px;
+  padding-bottom: 100px;
+  background-color: #d3d5d4;
+}
+
+#carouselExampleIndicators {
+  padding: 100px 0 0 0;
+}
+
+.carousel-item > img {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.btn-outline-dark {
+  margin-top: 10px;
+}
+
+
+
+/* Contact me */
+
+.bton {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  border-radius: 8px;
+  color: #ffffff;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.bton:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+#contact-me {
+  margin-top: 40px;
+}
+
+#contact-me > p{
+  width: 43%;
+  margin: 40px auto 60px;
+  padding-top: 50px;
+  line-height: 2;
+}
+
+
+/* footer */
+
+.bottom-container{
+  background-color: #66BFBF;
+  margin-top: 70px;
+  padding: 50px 0;
+  /* line-height: 2; */
+}
+
+.footer-link {
+  color: #11999E;
+  text-decoration: none;
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer-link:hover {
+  color: #EAF6F6;
+}
+
+.copyright {
+  color: #EAF6F6;
+  margin-bottom: 0;
+  font-size: 0.75rem;
+}

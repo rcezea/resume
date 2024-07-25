@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Richard Ezea - Portfolio</title>
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="#">Navbar</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link active" aria-current="page" href="#">About Me</a>
+				</li>
+				<li class="nav-item">
+					<a href="#skills" class="nav-link" href="#">Skills</a>
+				</li>
+				<li class="nav-item">
+					<a href="#projects" class="nav-link" href="#">Projects</a>
+				</li>
+				<li class="nav-item">
+					<a href="#contact-me" class="nav-link">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<header id="home">
+	<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+		<div class="carousel-inner">
+			<div class="carousel-item active" data-bs-interval="3000">
+				<img src="images/richard.png" class="d-block w-100" alt="...">
+			</div>
+			<div class="carousel-item" data-bs-interval="3000">
+				<img src="images/richard1.png" class="d-block w-100" alt="...">
+			</div>
+			<div class="carousel-item" data-bs-interval="3000">
+				<img src="images/richard2.png" class="d-block w-100" alt="...">
+			</div>
+			<div class="carousel-item" data-bs-interval="3000">
+				<img src="images/richard3.png" class="d-block w-100" alt="...">
+			</div>
+			<div class="carousel-item" data-bs-interval="3000">
+				<img src="images/richard4.png" class="d-block w-100" alt="...">
+			</div>
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
+		</button>
+	</div>
+	
+	<h1>Richard Ezea</h1>
+	<p class="subtitle"><em><strong>Full Stack Software Engineer</strong></em></p>
+</header>
+<div id="about">
+	<div class="container">
+		<p>My expertise lies primarily in backend development, where I have honed my skills in Python, MySQL, and MongoDB, amongst others. I am particularly interested in opportunities that allow me to work in dynamic and diverse teams where I can learn from experienced professionals and contribute meaningfully to impactful projects. My goal is to evolve into a full-stack software engineer, and I am eager to improve my front-end skills while continuing to excel in backend development.</p>
+		<p class="subtitle"><strong>Education:</strong> B.Sc Computer Science, Babcock University, Nigeria (January 2021 – July 2024)</p>
+<!--		<p><strong>Internship:</strong>Certified Backend Engineer, Alx Software Engineering (June 2023 – July 2024)</p>-->
+	</div>
+</div>
+<hr>
+<div id="skills">
+	<h3 style="float: left">Skills</h3>
+	<div class="skills-list">
+		<img id="code-img" src="images/code.png" alt="">
+		<h3 class="skill-head">Technologies</h3>
+		<p id="code-skill-list">C/C++, Python - Flask, JavaScript, Node.js, Express.js, MySQL, MongoDB, Redis, Git/GitHub, Linux, jQuery, HTML/CSS, Java</p>
+	</div>
+	
+	<div class="skills-list">
+		<img id="hard-skill-img" src="images/hard-skills.png" alt="">
+		<h3 class="skill-head">Technical Skills</h3>
+		<p id="hard-skill-list">Programming Languages, Data Structures & Algorithms, Version Control, Testing & Debugging, System Architecture & Design, Database Management, Back End Development</p>
+	</div>
+	
+	<div class="skills-list">
+		<img id="soft-skill-img" src="images/soft-skills.png" alt="">
+		<h3 class="skill-head">Soft Skills</h3>
+		<p id="soft-skill-list">Effective Communication, Problem-Solving, Teamwork & Collaboration, Adaptability & Flexibility, Time Management & Organisation, Continuous Learning, Attention to Detail, Emotional Intelligence</p>
+	</div>
+	</div>
+
+<hr>
+
+<div id="projects">
+	<div class="container">
+		<h2>Projects</h2>
+		<div id="carouselExampleIndicators" class="carousel bg-transparent slide ">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="images/projects/project1.png" class="d-block" alt="...">
+					<a href="http://github.com/rcezea/Leave-Management-System"  target="_blank" class="btn btn-outline-dark">LMS</a>
+				</div>
+				<div class="carousel-item">
+					<img src="images/projects/project2.png" class="d-block" alt="...">
+					<a href="http://github.com/rcezea/forsheets"  target="_blank" class="btn btn-outline-dark">Forsheets</a>
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+	</div>
+</div>
+<hr>
+<div id="contact-me">
+	<h2>Get In Touch</h2>
+	<h3>Do you want to solve difficult problems?</h3>
+	<p>I am very happy to take on difficult problems requiring programming solutions. I love collaboration even more!</p>
+	<a class="bton" href="mailto:rclancing@gmail.com">CONTACT ME</a>
+</div>
+
+<div class="bottom-container">
+	<a class="footer-link" href="https://www.linkedin.com/in/rcezea/">LinkedIn</a>
+	<a class="footer-link" href="https://github.com/rcezea/">GitHub</a>
+	<p class="copyright">© 2024 Richard Ezea @ RC Lancing.</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
